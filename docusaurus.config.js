@@ -7,8 +7,8 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const config = {
   title: 'Edik',
   tagline: 'itgenio',
-  url: 'https://geditor.eu.meteorapp.com',
-  baseUrl: '/docs/',
+  url: 'https://geditor-docs.netlify.app',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
@@ -23,7 +23,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/itgenio/geditor',
+          editUrl: 'https://github.com/itgenio/geditor-docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
